@@ -32,7 +32,7 @@
           "options": {
             "localize": false,
             "aot": true,
-            "outputPath": "dist/hyper-angular",
+            "outputPath": "dist/hands4heart-admin",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -95,27 +95,27 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "hyper-angular:build:production"
+              "browserTarget": "hands4heart-admin:build:production"
             },
             "development": {
-              "browserTarget": "hyper-angular:build:development"
+              "browserTarget": "hands4heart-admin:build:development"
             },
             "fr": {
-              "browserTarget": "hyper-angular:build:fr"
+              "browserTarget": "hands4heart-admin:build:fr"
             },
             "en": {
-              "browserTarget": "hyper-angular:build:en"
+              "browserTarget": "hands4heart-admin:build:en"
             }
           },
           "options": {
-            "browserTarget": "hyper-angular:build:development"
+            "browserTarget": "hands4heart-admin:build:development"
           },
           "defaultConfiguration": ""
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "hyper-angular:build"
+            "browserTarget": "hands4heart-admin:build"
           }
         },
         "test": {
@@ -139,5 +139,5 @@
       }
     }
   },
-  "defaultProject": "hyper-angular"
+  "defaultProject": "hands4heart-admin"
 }
